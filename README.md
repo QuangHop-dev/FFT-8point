@@ -32,16 +32,11 @@ A. Butter Fly Sub-Blocks: In the signal flow diagram in Fig. 1, the basic butter
 
 B. Complex Multiplier (CM): Complex multiplier multiplies two complex number. Multiplication of two complex number can be expressed as
 
-
-  \[(a+jb)\times (c+jd) = ac+jad+jbc-bd = (ac-bd) + j(ad+bc)\]
+![image](https://github.com/user-attachments/assets/b5519745-c735-49e4-ba2a-2651611a1c04)
 
 In our case, as (a+jb) is variable but (c+jd) is constant. Thus the complex multiplication is reduced to the following.
 
-
-  \[(a+jb)(0.7071 - j0.7071)  = 0.7071(a+b) - j0.7071(a-b)\]
-
-
-  \[ (a+jb)(-0.7071 - j0.7071)  = -0.7071(a-b) - j0.7071(a+b)\]
+![image](https://github.com/user-attachments/assets/fa0dc1e1-e67a-4644-af95-25305b9fe84b)
 
 The complex multiplier block is shown below in Fig. 7. The multiplication by 0.7071 is achieved by a constant multiplier. This reduces the hardware requirement.
 
@@ -49,7 +44,7 @@ The complex multiplier block is shown below in Fig. 7. The multiplication by 0.7
 
 C. Constant Multiplier: The design of constant multiplier is discussed in detail in tutorials of computational circuits. The multiplication by the constant 0.7071 can be expressed as
 
-  \[ 0.7071x = (2^{-1} +  2^{-3} +  2^{-4} +  2^{-6} +  2^{-8})x\]
+![image](https://github.com/user-attachments/assets/54fb755a-8fb0-4f1e-a12c-0a699b921bf4)
 
 The constant multiplier is shown in Fig. 8. The RSH blocks are hardware wire-shift blocks to shift in right direction.
 
@@ -84,4 +79,9 @@ The output of the FFT processor is shown in Fig. 12 according to the example sho
 ![image](https://github.com/user-attachments/assets/706a65b7-9d0c-48f8-915c-d412f9e6d117)
 
 The FFT processor is implemented on SPARTAN 3E starter kit. The design performance is shown below in the following table.
+
 ![image](https://github.com/user-attachments/assets/12701cdd-ba2a-465b-a24f-30ba26be3241)
+
+# Reference
+
+https://digitalsystemdesign.in/fpga-implementation-of-8-point-fft/?srsltid=AfmBOoqdNrs1TrYRv9OSMX85dwN1suHmjh7md2tyO7kTBEaIIRWocdlE
