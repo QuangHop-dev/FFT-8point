@@ -28,7 +28,9 @@ Chức năng: Bộ đếm có thể tải tạo ra tín hiệu Terminal Count (t
 ![image](https://github.com/user-attachments/assets/2a8527fa-c15e-49d0-92d4-bae03d653f2a)
 
 Nhận xét kết quả: đã đạt được mục tiêu thiết kế
+
 + Bộ đếm đã thực hiện đếm với số đếm khởi tạo
+
 + Bộ đếm đã tạo ra tín hiệu tc khi đạt đến giá trị ví dụ lmt = 3’b100
 # 5. Khối S2P (chuyển đổi từ tuần tự sang song song)
 Mô tả: Khối này có 8 thanh ghi độ rộng 16 bits. Mỗi thanh ghi được điều khiển bởi một chân kích hoạt điều khiển (en2). Dữ liệu đầu vào (data_ROM) chạy đến đầu ra chỉ khi tín hiệu kích hoạt (en2) mức cao.
@@ -48,9 +50,10 @@ Nhận xét kết quả: đạt được yêu cầu thiết kế, ROM trích xu�
 ![image](https://github.com/user-attachments/assets/a3569fbb-e6a5-4b7e-8c19-e50adb452b0d)
 
 7.1. Các Khối Con Butterfly (BF1 và BF2)
+
 Mô tả chức năng: Khối con butterfly cơ bản thực hiện hai loại phép toán cộng và trừ. Do đó, chúng em đã thiết kế khối BF1 thực hiện phép cộng hoặc phép trừ, trong đó bộ (+/-) có tín hiệu chọn add: mức 0 thực hiện (+), mức 1 thực hiện (-). Còn khối BF2 ngoài tính toán phần real còn tính toán phần image, nhận 2 giá trị: real, image. Trả về 4 giá trị: real, real, image, -image.
 
-![image](https://github.com/user-attachments/assets/9c1e2889-00d2-4bd9-87d5-65f57475ed14)
+![image](https://github.com/user-attachments/assets/4d901e28-e480-4677-955b-e80789b9b169)
 
 Mô tả In/Out khối BF1:
 
