@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FFT-8points.srcs/sources_1/new/BF1.v" \
+"../../../../FFT-8points.srcs/sources_1/new/BF2.v" \
+"../../../../FFT-8points.srcs/sources_1/new/Constant_Mul.v" \
+"../../../../FFT-8points.srcs/sources_1/new/DFF.v" \
+"../../../../FFT-8points.srcs/sources_1/new/Delay_Block.v" \
+"../../../../FFT-8points.srcs/sources_1/new/FFT_8point.v" \
+"../../../../FFT-8points.srcs/sources_1/new/FFT_processor.v" \
+"../../../../FFT-8points.srcs/sources_1/new/FFT_stage1.v" \
+"../../../../FFT-8points.srcs/sources_1/new/FFT_stage2.v" \
+"../../../../FFT-8points.srcs/sources_1/new/FFT_stage3.v" \
+"../../../../FFT-8points.srcs/sources_1/new/P2S.v" \
+"../../../../FFT-8points.srcs/sources_1/new/ROM.v" \
+"../../../../FFT-8points.srcs/sources_1/new/S2P.v" \
+"../../../../FFT-8points.srcs/sources_1/new/AddSub.v" \
+"../../../../FFT-8points.srcs/sources_1/new/cnt4.v" \
+"../../../../FFT-8points.srcs/sources_1/new/Complex_Mul.v" \
+"../../../../FFT-8points.srcs/sources_1/new/Complex_Mul1.v" \
+"../../../../FFT-8points.srcs/sources_1/new/fdce.v" \
+"../../../../FFT-8points.srcs/sources_1/new/fdce16.v" \
+"../../../../FFT-8points.srcs/sources_1/new/mux.v" \
+"../../../../FFT-8points.srcs/sources_1/new/mux16.v" \
+"../../../../FFT-8points.srcs/sources_1/new/pg.v" \
+"../../../../FFT-8points.srcs/sources_1/new/reg16.v" \
+"../../../../FFT-8points.srcs/sources_1/new/rsh1.v" \
+"../../../../FFT-8points.srcs/sources_1/new/rsh3.v" \
+"../../../../FFT-8points.srcs/sources_1/new/rsh4.v" \
+"../../../../FFT-8points.srcs/sources_1/new/rsh6.v" \
+"../../../../FFT-8points.srcs/sources_1/new/rsh8.v" \
+"../../../../FFT-8points.srcs/sim_1/new/FFT_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

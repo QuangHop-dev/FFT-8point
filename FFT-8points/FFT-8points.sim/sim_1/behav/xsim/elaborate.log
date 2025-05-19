@@ -1,0 +1,42 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: A:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FFT_tb_behav xil_defaultlib.FFT_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.fdce
+Compiling module xil_defaultlib.fdce16
+Compiling module xil_defaultlib.S2P
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.DFF
+Compiling module xil_defaultlib.reg16
+Compiling module xil_defaultlib.BF1
+Compiling module xil_defaultlib.FFT_stage1
+Compiling module xil_defaultlib.BF2
+Compiling module xil_defaultlib.Delayblock
+Compiling module xil_defaultlib.rsh1
+Compiling module xil_defaultlib.rsh3
+Compiling module xil_defaultlib.rsh4
+Compiling module xil_defaultlib.rsh6
+Compiling module xil_defaultlib.rsh8
+Compiling module xil_defaultlib.Constant_mul
+Compiling module xil_defaultlib.complex_mul
+Compiling module xil_defaultlib.complex_mul1
+Compiling module xil_defaultlib.FFT_stage2
+Compiling module xil_defaultlib.FFT_stage3
+Compiling module xil_defaultlib.FFT_8point
+Compiling module xil_defaultlib.mux16
+Compiling module xil_defaultlib.P2S
+Compiling module xil_defaultlib.cnt4
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.pg
+Compiling module xil_defaultlib.FFT_processor
+Compiling module xil_defaultlib.FFT_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FFT_tb_behav

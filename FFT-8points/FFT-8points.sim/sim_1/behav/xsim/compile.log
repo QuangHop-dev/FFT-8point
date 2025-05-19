@@ -1,0 +1,58 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/BF1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BF1
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/BF2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BF2
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/Constant_Mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Constant_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/DFF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/Delay_Block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Delayblock
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/FFT_8point.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_8point
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/FFT_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/FFT_stage1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_stage1
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/FFT_stage2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_stage2
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/FFT_stage3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_stage3
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/P2S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/S2P.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S2P
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/AddSub.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/cnt4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cnt4
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/Complex_Mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complex_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/Complex_Mul1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module complex_mul1
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/fdce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fdce
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/fdce16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fdce16
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/mux16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux16
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/pg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pg
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/reg16.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg16
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/rsh1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rsh1
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/rsh3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rsh3
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/rsh4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rsh4
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/rsh6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rsh6
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sources_1/new/rsh8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rsh8
+INFO: [VRFC 10-2263] Analyzing Verilog file "A:/Personal Projects/FFT-8points/FFT-8points.srcs/sim_1/new/FFT_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FFT_tb
